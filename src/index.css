@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Hurricane&family=Lato&family=Poppins&family=Prompt:wght@100&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-image: url(./components/images-food/steakbg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
